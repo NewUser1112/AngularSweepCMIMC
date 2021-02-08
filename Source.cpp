@@ -5,9 +5,6 @@
 #include <cmath>
 using namespace std;
 
-//  OPTIMIZE LIST: 
-// centerX and centerY only represent 1 center of the circle, when there can be 2 that need to be tested
-
 class point {
 private:
 	int xCord;
@@ -132,5 +129,6 @@ int main() {
 	for (int i = 0; i < realans.size(); ++i) {
 		realans.at(i).display();
 	}
+	//remove system("pause"); if program is directly submitted to an auto grader
 	system("pause");
 }
