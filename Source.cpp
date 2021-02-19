@@ -4,7 +4,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
+// testing123
 class point {
 private:
 	int xCord;
